@@ -1,0 +1,33 @@
+<form method="POST" action="data.html" id="form" class="container-fluid" style="justify-content: center;">
+
+      <div>USERNAME <input type="text" name="name" id="uname">
+        <small></small>
+        </div>
+      <br>
+      <div>PHONE <input type="text" name="phone" id="phone">
+        <small></small>
+        </div>
+      <br>
+      <div>EMAIL <input type="email" name="email" id="email" required>
+        <small></small>
+        </div>
+      <br>
+      ArrivalDate:
+      <input type="date" name="date"><br>
+        <p>Select your package:</p>
+          <div>
+          <select name="package" id="package">
+            <option  value="package">packages</option>
+            <option   value="andaman">Andaman Nicobar Islands</option>
+            <option  value="kerela">Kerela</option>
+            <option  value="dubai">Dubai</option>
+            <option  value="tajmahal">TaiMahal</option>
+            <option  value="maldives">Maldives</option>
+            <option  value="goa">Goa</option>
+            </select>
+            <small></small></div>
+      
+      <br><br>
+        <input  class="bg-info" type="submit" name="submit" value="BookMyDestination">
+    
+    </form>
